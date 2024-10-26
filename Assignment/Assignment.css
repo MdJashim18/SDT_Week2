@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+.btn-section{
+    text-align: center;
+    align-items: center;
+    padding: 50px;
+}
+.btn-input{
+    width: 40%;
+    height: 30px;
+    box-shadow: 4px 4px 8px gray;
+    border: 1px solid orange;
+}
+.btn1{
+    padding: 5px;
+    background-color: orange;
+    border: 1px solid black;
+    color: white;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+.player-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 10px;
+}
+.player-container1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 60%;
+}
+.card {
+    width: 200px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    transition: .4s;
+    box-shadow: 4px 4px 8px gray;
+}
+.card:hover{
+    transform: scale(1.03);
+}
+.card img {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.cart-img{
+    text-align: center;
+    padding: 0px 10px;
+    margin: 0px 35px;
+}
+.player-p{
+    text-align: center;
+    font-size: 30px;
+    width: 50%;
+    margin: auto;
+}
+.social-icons{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 10px;
+}
+.social-icon{
+    font-size: 20px;
+    color: gray;
+}
+.btn-icon{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 5px;
+}
+.btn-details{
+    font-size: normal;
+    
+}
+.card h3{
+    font-size: 20px;
+    text-align: center;
+}
+.player-container2{
+    width: 40%;
+    text-align: center;
+}
+
+.hr-line{
+    width: 100%;
+    border: 2px solid gray;
+    padding: 0px 100px;
+}

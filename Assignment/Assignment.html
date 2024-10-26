@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Assignment.css">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <section class="btn-section">
+        <input type="text" id="player-search" placeholder="find your favorite player" class="btn-input">
+        <button class="btn1" id="search-btn">Search</button>
+    </section>
+
+    <section>
+        <div class="player-container" id="player-container">
+            <div class="player-container1" id="player-container1"></div>
+            <div class="player-container2" id="player-container2">
+                <h4>This is cart <span id="count">0</span></h4>
+                <hr class="hr-line" >
+                <div id="cart-main-container" class="cart-main-container">
+        
+                </div>
+                <hr class="hr-line">
+            </div>
+        </div>
+    </section>
+
+
+    <div class="modal fade" id="playerModal" tabindex="-1" aria-labelledby="modalTitle" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitle">Player Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="modalBody">
+                    <!-- Content will be populated by JavaScript -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+    <script src="Assignment.js"></script>
+</body>
+</html>
